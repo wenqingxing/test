@@ -18,4 +18,3 @@ spec:
           value: <BRANCH_NAME>
       imagePullSecrets:
       - name: harbor-secret
-      restartPolicy: Always
