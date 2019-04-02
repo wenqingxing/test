@@ -16,3 +16,6 @@ spec:
         env:
         - name: branch
           value: <BRANCH_NAME>
+      imagePullSecrets:
+      - name: harbor-secret
+      restartPolicy: Always
